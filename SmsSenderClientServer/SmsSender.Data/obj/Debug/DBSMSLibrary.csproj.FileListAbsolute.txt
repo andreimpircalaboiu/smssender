@@ -1,0 +1,18 @@
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Debug\DBSMSLibrary.dll.config
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Debug\DBSMSLibrary.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Debug\DBSMSLibrary.pdb
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Debug\EntityFramework.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Debug\EntityFramework.xml
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\obj\Debug\DBSMSLibrary.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\DBSMSLibrary\obj\Debug\DBSMSLibrary.pdb
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Debug\DBSMSLibrary.dll.config
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Debug\DBSMSLibrary.dll
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Debug\DBSMSLibrary.pdb
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Debug\EntityFramework.dll
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Debug\EntityFramework.xml
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\obj\Debug\DBSMSLibrary.dll
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\obj\Debug\DBSMSLibrary.pdb

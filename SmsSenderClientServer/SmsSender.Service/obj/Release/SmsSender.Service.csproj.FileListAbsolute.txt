@@ -1,0 +1,12 @@
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\SmsSender.Service.dll.config
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\SmsSender.Service.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\SmsSender.Service.pdb
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\EntityFramework.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\EntityFramework.SqlServer.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\SmsSender.Data.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\SmsSender.Data.pdb
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\EntityFramework.xml
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\EntityFramework.SqlServer.xml
+E:\transfer\MyProjects\SMSWebService\SMSWebService\obj\Release\SmsSender.Service.csprojResolveAssemblyReference.cache
+E:\transfer\MyProjects\SMSWebService\SMSWebService\obj\Release\SmsSender.Service.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\obj\Release\SmsSender.Service.pdb

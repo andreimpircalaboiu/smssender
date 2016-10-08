@@ -1,0 +1,24 @@
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\SMSWebService.dll.config
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\SMSWebService.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\SMSWebService.pdb
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\DBSMSLibrary.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\EntityFramework.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\EntityFramework.SqlServer.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\DBSMSLibrary.pdb
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\EntityFramework.xml
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\bin\EntityFramework.SqlServer.xml
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\obj\Release\SMSWebService.csprojResolveAssemblyReference.cache
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\obj\Release\SMSWebService.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\SMSWebService\obj\Release\SMSWebService.pdb
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\SMSWebService.dll.config
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\SMSWebService.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\SMSWebService.pdb
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\DBSMSLibrary.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\EntityFramework.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\EntityFramework.SqlServer.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\DBSMSLibrary.pdb
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\EntityFramework.xml
+E:\transfer\MyProjects\SMSWebService\SMSWebService\bin\EntityFramework.SqlServer.xml
+E:\transfer\MyProjects\SMSWebService\SMSWebService\obj\Release\SMSWebService.csprojResolveAssemblyReference.cache
+E:\transfer\MyProjects\SMSWebService\SMSWebService\obj\Release\SMSWebService.dll
+E:\transfer\MyProjects\SMSWebService\SMSWebService\obj\Release\SMSWebService.pdb

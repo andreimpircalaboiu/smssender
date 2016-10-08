@@ -1,0 +1,15 @@
+E:\transfer\MyProjects\SMSViaUSBApp\SmsSender.Application\bin\Debug\SmsSender.Application.exe.config
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\SmsSender.Application.exe.config
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\SmsSender.Application.exe
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\SmsSender.Application.pdb
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\EntityFramework.dll
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\EntityFramework.SqlServer.dll
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\SmsSender.Data.dll
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\SmsSender.Data.pdb
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\EntityFramework.xml
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\bin\Debug\EntityFramework.SqlServer.xml
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\obj\Debug\SmsSender.Application.MainForm.resources
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\obj\Debug\SmsSender.Application.Properties.Resources.resources
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\obj\Debug\SmsSender.Application.csproj.GenerateResource.Cache
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\obj\Debug\SmsSender.Application.exe
+E:\transfer\MyProjects\SmsSender\SmsSender.Application\obj\Debug\SmsSender.Application.pdb

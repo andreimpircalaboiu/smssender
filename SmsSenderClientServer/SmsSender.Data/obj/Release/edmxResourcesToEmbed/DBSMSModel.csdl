@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SMSCollection">
+    <Key>
+      <PropertyRef Name="SMSId" />
+    </Key>
+    <Property Name="SMSId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MessageContent" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Priority" Type="Int32" Nullable="false" />
+    <Property Name="IsSent" Type="Boolean" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.SMSCollectionTable_To_UsersTable" FromRole="SMSCollection" ToRole="Users" />
+    <Property Name="RecievedDateStamp" Type="DateTime" Precision="7" />
+    <Property Name="SentDateStamp" Type="DateTime" Precision="7" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="SMSCollection" Relationship="Self.SMSCollectionTable_To_UsersTable" FromRole="Users" ToRole="SMSCollection" />
+  </EntityType>
+  <Association Name="SMSCollectionTable_To_UsersTable">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="SMSCollection" Type="Self.SMSCollection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="SMSCollection">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBSMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SMSCollection" EntityType="Self.SMSCollection" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="SMSCollectionTable_To_UsersTable" Association="Self.SMSCollectionTable_To_UsersTable">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="SMSCollection" EntitySet="SMSCollection" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

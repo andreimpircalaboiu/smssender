@@ -1,0 +1,29 @@
+﻿@model SMSWebClientConsumer.Models.User
+@{
+    ViewBag.Title = "Login";
+}
+<h2>Login</h2>
+<br />
+@using (Html.BeginForm("Login", "Account"))
+{
+    @Html.ValidationSummary(true)
+    <table>
+        <tr>
+            <td>@Html.Label("Nume utilizator: ")</td>
+            <td>@Html.TextBoxFor(m => m.Username)</td>
+            <td>@Html.ValidationMessageFor(m => Model.Username)</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Parola: ")</td>
+            <td>@Html.PasswordFor(m => m.Password)</td>
+            <td>@Html.ValidationMessageFor(m => Model.Password)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Login" /></td>
+        </tr>
+    </table>
+}
+
+
+

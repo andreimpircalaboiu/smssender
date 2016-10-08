@@ -1,0 +1,12 @@
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\obj\Debug\SMSWebService.csprojResolveAssemblyReference.cache
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\SMSWebService.dll.config
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\SMSWebService.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\SMSWebService.pdb
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\DBSMSLibrary.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\EntityFramework.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\DBSMSLibrary.pdb
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\EntityFramework.xml
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\obj\Debug\SMSWebService.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\obj\Debug\SMSWebService.pdb
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\EntityFramework.SqlServer.dll
+c:\users\andrei\documents\visual studio 2013\Projects\SMSWebService\SMSWebService\bin\EntityFramework.SqlServer.xml

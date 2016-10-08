@@ -1,0 +1,19 @@
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Release\DBSMSLibrary.dll.config
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Release\DBSMSLibrary.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Release\DBSMSLibrary.pdb
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Release\EntityFramework.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Release\EntityFramework.SqlServer.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Release\EntityFramework.xml
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\bin\Release\EntityFramework.SqlServer.xml
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\obj\Release\DBSMSLibrary.dll
+c:\Users\Andrei\Documents\Visual Studio 2013\Projects\SMSWebService\DBSMSLibrary\obj\Release\DBSMSLibrary.pdb
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Release\DBSMSLibrary.dll.config
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Release\DBSMSLibrary.dll
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Release\DBSMSLibrary.pdb
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Release\EntityFramework.dll
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Release\EntityFramework.SqlServer.dll
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Release\EntityFramework.xml
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\bin\Release\EntityFramework.SqlServer.xml
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\obj\Release\DBSMSLibrary.csprojResolveAssemblyReference.cache
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\obj\Release\DBSMSLibrary.dll
+E:\transfer\MyProjects\SMSWebService\DBSMSLibrary\obj\Release\DBSMSLibrary.pdb

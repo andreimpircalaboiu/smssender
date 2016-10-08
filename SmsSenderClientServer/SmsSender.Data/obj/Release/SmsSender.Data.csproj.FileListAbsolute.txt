@@ -1,0 +1,9 @@
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\bin\Release\SmsSender.Data.dll.config
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\bin\Release\SmsSender.Data.dll
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\bin\Release\SmsSender.Data.pdb
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\bin\Release\EntityFramework.dll
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\bin\Release\EntityFramework.SqlServer.dll
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\bin\Release\EntityFramework.xml
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\bin\Release\EntityFramework.SqlServer.xml
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\obj\Release\SmsSender.Data.dll
+E:\transfer\MyProjects\SMSWebService\SmsSender.Data\obj\Release\SmsSender.Data.pdb

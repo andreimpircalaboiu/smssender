@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SMSCollection">
+    <Key>
+      <PropertyRef Name="SMSId" />
+    </Key>
+    <Property Name="SMSId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MessageContent" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="Priority" Type="int" Nullable="false" />
+    <Property Name="IsSent" Type="bit" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="RecievedDateStamp" Type="datetime2" Precision="7" />
+    <Property Name="SentDateStamp" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="SMSCollectionTable_To_UsersTable">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="SMSCollection" Type="Self.SMSCollection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="SMSCollection">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SMSModelStoreContainer">
+    <EntitySet Name="SMSCollection" EntityType="Self.SMSCollection" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="SMSCollectionTable_To_UsersTable" Association="Self.SMSCollectionTable_To_UsersTable">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="SMSCollection" EntitySet="SMSCollection" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

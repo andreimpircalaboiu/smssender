@@ -1,0 +1,46 @@
+﻿@model SMSWebClientConsumer.Models.Message
+
+@{
+    ViewBag.Title = "Message Centre";
+}
+
+<br/>
+@using (Html.BeginForm("Send", "Message"))
+{
+
+    @Html.ValidationSummary(true)
+    @Html.HiddenFor(m=>m.Username,Model.Username)
+    <table>
+        <tr>
+            <td>@Html.Label("Numar de telefon: ")</td>
+            <td>@Html.TextBoxFor(m => m.PhoneNumber)</td>
+            <td>@Html.ValidationMessageFor(m => m.PhoneNumber)</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Mesajul: ")</td>
+            <td>@Html.TextAreaFor(m => m.MessageContent, 3, 30, new {@maxlength = "140"})</td>
+            <td>@Html.ValidationMessageFor(m => m.MessageContent)</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Prioritate: ")</td>
+            <td>
+                @Html.EnumDropDownListFor(m => m.Priority)</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Send"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            @if (!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+            {
+                <td>@Model.SuccessMessage</td>
+            }
+        </tr>
+        <tr></tr>
+    </table>
+
+
+}
+

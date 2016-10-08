@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/Service" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/Service" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/Service">
+      <s:element name="PostMessageData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="telephoneNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="priority" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostMessageDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostMessageDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAuthentification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAuthentificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAuthentificationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PostMessageDataSoapIn">
+    <wsdl:part name="parameters" element="tns:PostMessageData" />
+  </wsdl:message>
+  <wsdl:message name="PostMessageDataSoapOut">
+    <wsdl:part name="parameters" element="tns:PostMessageDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAuthentificationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAuthentification" />
+  </wsdl:message>
+  <wsdl:message name="GetAuthentificationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAuthentificationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SMSServiceSoap">
+    <wsdl:operation name="PostMessageData">
+      <wsdl:input message="tns:PostMessageDataSoapIn" />
+      <wsdl:output message="tns:PostMessageDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthentification">
+      <wsdl:input message="tns:GetAuthentificationSoapIn" />
+      <wsdl:output message="tns:GetAuthentificationSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SMSServiceSoap" type="tns:SMSServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PostMessageData">
+      <soap:operation soapAction="http://tempuri.org/Service/PostMessageData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthentification">
+      <soap:operation soapAction="http://tempuri.org/Service/GetAuthentification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SMSServiceSoap12" type="tns:SMSServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PostMessageData">
+      <soap12:operation soapAction="http://tempuri.org/Service/PostMessageData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthentification">
+      <soap12:operation soapAction="http://tempuri.org/Service/GetAuthentification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SMSService">
+    <wsdl:port name="SMSServiceSoap" binding="tns:SMSServiceSoap">
+      <soap:address location="http://localhost:1246/SmsService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SMSServiceSoap12" binding="tns:SMSServiceSoap12">
+      <soap12:address location="http://localhost:1246/SmsService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
